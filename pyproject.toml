@@ -50,6 +50,7 @@ django-filter = "^2.4.0"
 django-anymail = {extras = ["mailgun"], version = "^8.4"}
 django-allauth = "^0.45.0"
 django-rest-auth = {extras = ["with_social"], version = "^0.9.5"}
+django-component = "^0.1.7"
 
 [tool.poetry.dev-dependencies]
 black = "^21.5b2"

@@ -1,10 +1,10 @@
 {
-  "name": "builtwithdjango",
-  "version": "1.0.0",
-  "description": "Collection of app built with Django",
+  "name": "cistercian-date-club",
+  "version": "0.1.0",
+  "description": "Source code for the cisterciandate.club website.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rasulkireev/builtwithdjango.git"
+    "url": "git+https://github.com/rasulkireev/cistercian-date-club"
   },
   "scripts": {
     "webpack": "npx webpack --mode=development",

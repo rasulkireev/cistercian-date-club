@@ -79,6 +79,9 @@ django-allauth==0.45.0 \
 django-anymail==8.4; python_version >= "3.5" \
     --hash=sha256:671a338de43b8e414d48c6d16aac1df54d2f24f916e1073f9f60aef5acffaf89 \
     --hash=sha256:2e8307e84f0a12f9283469017094a8246db9a0fc608ac17dd1027ee011ece986
+django-component==0.1.7; python_version >= "3.6" \
+    --hash=sha256:bd414f2d44a7211d1a4d95a4a31c1dff9f6ada4450092afd95039a0c900cbbb4 \
+    --hash=sha256:c90a437cac226edc433e6378b77bd9b7fa446b0cc0157a558f792a38347879a7
 django-environ==0.4.5 \
     --hash=sha256:6c9d87660142608f63ec7d5ce5564c49b603ea8ff25da595fd6098f6dc82afde \
     --hash=sha256:c57b3c11ec1f319d9474e3e5a79134f40174b17c7cc024bbb2fad84646b120c4
