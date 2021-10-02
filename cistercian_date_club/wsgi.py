@@ -11,6 +11,8 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cistercian_date_club.settings')
+os.environ.setdefault(
+    "DJANGO_SETTINGS_MODULE", "cistercian_date_club.settings"
+)
 
 application = get_wsgi_application()
