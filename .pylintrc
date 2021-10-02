@@ -14,7 +14,7 @@ ignore=conf.py
 # regex matches against base names, not paths.
 #ignore-patterns=
 
-ignore-paths=(.*)migrations/(.*)
+ignore-paths=(.*)/migrations/(.*)
 
 # Pickle collected data for later comparisons.
 persistent=no
