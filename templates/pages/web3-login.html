@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<h1>Account Explorer</h1>
+<p>
+  login with web3 wallet
+</p>
+<button id="sign-in-btn" class="pointer">Sign In</button>
+<div id="account-info"></div>
+<br />
+
+<div>
+  <button id="verify-btn" style="display: none">Verify Account</button>
+  <div id="verify-msg" style="display: none"></div>
+</div>
+<br />
+
+<a href="" id="profile">
+  <img src="profile.png" />
+  <div id="name">Not Signed In</div>
+</a>
+
+<a href="" id="sign-out-btn">
+  <img src="sign-out-btn.gif" />
+  <span id="sign-out-span">Sign Out</span>
+</a>
+
+{% endblock content %}
